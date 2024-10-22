@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* Navbar */
+.navbar {
+    background-color: #f0f8ff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #333;
+}
+
+.nav-link.active {
+    color: #f0c040;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+}
+
+/* Section Accueil */
+.about-me img {
+    border-radius: 50%;
+    max-width: 250px;
+}
+
+@media (max-width: 768px) {
+    .about-me img {
+        max-width: 150px;
+    }
+
+    .about-me h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Services, Compétences, Portfolio */
+.services .card, 
+.portfolio .card, 
+.competences ul {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .services .card, 
+    .portfolio .card, 
+    .competences ul {
+        text-align: center;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+}
